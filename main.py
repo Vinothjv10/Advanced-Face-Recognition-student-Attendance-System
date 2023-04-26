@@ -33,7 +33,7 @@ def tick():
 
 def contact():
     mess._show(title='Contact us',
-               message="Please contact us on : 'shubhamkumar8180323@gmail.com' ")
+               message="Please contact us on : 'vinothjv10@gmail.com' ")
 
 ###################################################################################
 
@@ -161,13 +161,13 @@ def psw():
 
 def clear():
     txt.delete(0, 'end')
-    res = "1)Take Images  >>>  2)Save Profile"
+    res = "1)Take Images  >>>  2) Train Data"
     message1.configure(text=res)
 
 
 def clear2():
     txt2.delete(0, 'end')
-    res = "1)Take Images  >>>  2)Save Profile"
+    res = "1)Take Images  >>>  2) Train data"
     message1.configure(text=res)
 
 #######################################################################################
@@ -446,7 +446,7 @@ lbl2.place(x=80, y=140)
 txt2 = tk.Entry(frame2, width=32, fg="black", font=('times', 15, ' bold '))
 txt2.place(x=30, y=173)
 
-message1 = tk.Label(frame2, text="1)Take Images  >>>  2)Save Profile", bg="#00aeff",
+message1 = tk.Label(frame2, text="1)Take Images  >>>  2) Train Data ", bg="#00aeff",
                     fg="black", width=39, height=1, activebackground="yellow", font=('times', 15, ' bold '))
 message1.place(x=7, y=230)
 
